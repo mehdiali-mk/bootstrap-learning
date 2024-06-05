@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <title>Bootstrap Sandbox | Bootstrap Grid Columns</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-5">Bootstrap Grid Columns</h1>
+
+      <!-- Basic Grid Layout -->
+      <div class="row">
+        <div
+          class="col text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          1 / 2
+        </div>
+        <div
+          class="col text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          2 / 2
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          1 / 3
+        </div>
+        <div
+          class="col text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          2 / 3
+        </div>
+        <div
+          class="col text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          3 / 3
+        </div>
+      </div>
+      <br /><br />
+
+      <!-- Column Sizes -->
+      <div class="row">
+        <div
+          class="col-6 text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          1 / 2
+        </div>
+        <div
+          class="col-6 text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          2 / 2
+        </div>
+      </div>
+
+      <div class="row">
+        <div
+          class="col-4 text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          1 / 3
+        </div>
+        <div
+          class="col-8 text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          2 / 3
+        </div>
+      </div>
+      <br /><br />
+
+      <!-- Responsive Grid -->
+      <div class="row">
+        <div
+          class="col-md-6 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          1 / 2
+        </div>
+        <div
+          class="col-md-6 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          2 / 2
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          1 / 4
+        </div>
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          2 / 4
+        </div>
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          3 / 4
+        </div>
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning"
+        >
+          4 / 4
+        </div>
+      </div>
+
+      <br /><br />
+
+      <!-- Row Cols -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+      </div>
+      <br /><br />
+
+      <br /><br />
+
+      <!-- Nesting -->
+      <div class="row">
+        <div
+          class="col text-bg-warning fs-4 fw-bold p-2 ps-4 border border-dark"
+        >
+          Column
+        </div>
+        <div class="col text-bg-warning fs-4 fw-bold p-3 border border-dark">
+          <div class="row">
+            <div
+              class="col text-bg-warning fs-4 fw-bold p-2 border border-dark"
+            >
+              Column
+            </div>
+            <div
+              class="col text-bg-warning fs-4 fw-bold p-2 border border-dark"
+            >
+              Column
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+
+      <!-- Gutters -->
+      <div class="row g-5">
+        <div class="col-md-4">
+          <div class="p-3 text-bg-dark">Content</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 text-bg-dark">Content</div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 text-bg-dark">Content</div>
+        </div>
+      </div>
+      <br /><br />
+
+      <!-- Offsetting Columns -->
+      <div class="row">
+        <div
+          class="col-3 offset-6 text-bg-warning fs-4 fw-bold p-2 border border-dark"
+        >
+          Content
+        </div>
+        <div class="col-3 text-bg-warning fs-4 fw-bold p-2 border border-dark">
+          Content
+        </div>
+      </div>
+
+      <div class="row">
+        <div
+          class="col-md-6 offset-6 text-bg-warning fs-4 fw-bold p-2 border border-dark"
+        >
+          Column
+        </div>
+      </div>
+
+      <br /><br />
+
+      <!-- Ordering -->
+      <div class="row">
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning order-3"
+        >
+          Column 1
+        </div>
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning order-1"
+        >
+          Column 2
+        </div>
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning order-2"
+        >
+          Column 3
+        </div>
+        <div
+          class="col-sm-6 col-lg-3 text-bg-dark fs-4 fw-bold p-2 ps-4 border border-warning order-4"
+        >
+          Column 4
+        </div>
+      </div>
+      <!-- Don't go past here -->
+    </div>
+    <div style="margin-top: 350px"></div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
