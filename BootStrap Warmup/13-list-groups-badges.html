@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <title>Bootstrap Sandbox | List Groups & Badges</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-5">List Groups & Badges</h1>
+
+      <!-- Simple List Group -->
+      <ul class="list-group text-bg-warning border-warning">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item">Steve Rogers</li>
+        <li class="list-group-item active text-bg-warning border-warning">
+          Bruce Banner
+        </li>
+        <li class="list-group-item">Thor Odinson</li>
+        <li class="list-group-item disabled">Rick Jones</li>
+      </ul>
+
+      <br /><br />
+
+      <!-- Links -->
+      <div class="list-group text-bg-warning border-warning">
+        <a class="list-group-item" href="#">Tony Stark</a>
+        <a class="list-group-item" href="#">Steve Rogers</a>
+        <a class="list-group-item active text-bg-warning border-warning">
+          Bruce Banner
+        </a>
+        <a class="list-group-item" href="#">Thor Odinson</a>
+        <a class="list-group-item disabled" href="#">Rick Jones</a>
+      </div>
+
+      <br /><br />
+
+      <!-- Flush Style -->
+      <ul class="list-group list-group-flush text-bg-dark border-dark">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item">Steve Rogers</li>
+        <li class="list-group-item active text-bg-dark border-dark">
+          Bruce Banner
+        </li>
+        <li class="list-group-item">Thor Odinson</li>
+        <li class="list-group-item disabled">Rick Jones</li>
+      </ul>
+
+      <br /><br />
+
+      <!-- Numbered List -->
+      <ol class="list-group list-group-numbered text-bg-danger border-danger">
+        <li class="list-group-item">Tony Stark</li>
+        <li class="list-group-item">Steve Rogers</li>
+        <li class="list-group-item active text-bg-danger border-danger">
+          Bruce Banner
+        </li>
+        <li class="list-group-item">Thor Odinson</li>
+        <li class="list-group-item disabled">Rick Jones</li>
+      </ol>
+
+      <br /><br />
+
+      <!-- Badges -->
+      <h1>Example heading <span class="badge bg-primary">New</span></h1>
+      <h2>Example heading <span class="badge bg-secondary">New</span></h2>
+      <h3>Example heading <span class="badge bg-success">New</span></h3>
+      <h4>Example heading <span class="badge bg-danger">New</span></h4>
+      <h5>Example heading <span class="badge bg-warning">New</span></h5>
+      <h6>Example heading <span class="badge bg-dark">New</span></h6>
+
+      <br /><br />
+
+      <!-- In Button -->
+      <button type="button" class="btn btn-primary position-relative">
+        Notifications
+        <span
+          class="badge bg-danger rounded-5 position-absolute top-0 end-0"
+          style="transform: translate(50%, -50%)"
+          >99+</span
+        >
+      </button>
+
+      <br /><br />
+
+      <!-- Badges in List Group -->
+      <ul class="list-group">
+        <li
+          class="list-group-item d-flex align-items-start justify-content-between text-bg-dark"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Myown</div>
+            It is owned by Mehdiali
+          </div>
+          <span class="badge text-bg-warning rounded-pill">20</span>
+        </li>
+        <li
+          class="list-group-item d-flex align-items-start justify-content-between text-bg-warning"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Myown</div>
+            It is owned by Mehdiali
+          </div>
+          <span class="badge text-bg-success rounded-pill">20</span>
+        </li>
+        <li
+          class="list-group-item d-flex align-items-start justify-content-between text-bg-success"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Myown</div>
+            It is owned by Mehdiali
+          </div>
+          <span class="badge text-bg-danger rounded-pill">20</span>
+        </li>
+        <li
+          class="list-group-item d-flex align-items-start justify-content-between text-bg-danger"
+        >
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Myown</div>
+            It is owned by Mehdiali
+          </div>
+          <span class="badge text-bg-primary rounded-pill">20</span>
+        </li>
+      </ul>
+      <!-- Don't go past here -->
+    </div>
+    <div style="margin-top: 350px"></div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
