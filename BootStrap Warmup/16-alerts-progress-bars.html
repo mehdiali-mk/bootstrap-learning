@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <title>Bootstrap Sandbox | Alerts & Progress Bars</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mb-5">Alerts & Progress Bars</h1>
+
+      <!-- Alerts -->
+      <div class="alert alert-primary" role="alert">
+        This is a primary alert!
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        This is a secondary alert!
+      </div>
+      <div class="alert alert-success" role="alert">
+        This is a success alert!
+      </div>
+      <div class="alert alert-danger" role="alert">This is a danger alert!</div>
+      <div class="alert alert-warning" role="alert">
+        This is a warning alert!
+      </div>
+      <div class="alert alert-info" role="alert">This is a info alert!</div>
+      <div class="alert alert-light" role="alert">This is a light alert!</div>
+      <div class="alert alert-dark" role="alert">This is a dark alert!</div>
+
+      <br /><br />
+
+      <!-- Alert with link -->
+      <p class="text-danger text-opacity-75 text-center fs-4">
+        Alert with Link
+      </p>
+      <div class="alert alert-danger" role="alert">
+        This is a dark alert! <a href="#" class="alert-link">Example Link</a>
+      </div>
+      <br /><br />
+
+      <!-- Additional Content -->
+      <p class="text-success text-opacity-75 text-center fs-4">
+        Additional Content
+      </p>
+      <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Well Done</h4>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates,
+          qui.
+        </p>
+        <hr />
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <br /><br />
+
+      <!-- Dismissing -->
+      <p class="text-danger text-opacity-75 text-center fs-4">Dismissing</p>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <button class="btn-close" data-bs-dismiss="alert"></button>
+        Alert!!! Website went gone....
+      </div>
+
+      <br /><br />
+
+      <!-- Progress Bars -->
+      <p class="text-success text-opacity-75 text-center fs-4">Progress Bars</p>
+      <div
+        class="progress mb-4"
+        role="progressbar"
+        aria-valuenow="25"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div class="progress-bar bg-primary" style="width: 25%"></div>
+      </div>
+      <div
+        class="progress mb-4"
+        role="progressbar"
+        aria-valuenow="50"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div class="progress-bar bg-success" style="width: 50%"></div>
+      </div>
+
+      <br /><br />
+
+      <!-- Labels -->
+      <p class="text-warning text-opacity-75 text-center fs-4">Labels</p>
+      <div
+        class="progress mb-4"
+        role="progressbar"
+        aria-valuenow="80"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div class="progress-bar bg-warning" style="width: 80%">80%</div>
+      </div>
+
+      <br /><br />
+
+      <!-- Stripes -->
+      <p class="text-dark text-opacity-75 text-center fs-4">Striped</p>
+      <div
+        class="progress mb-4"
+        role="progressbar"
+        aria-valuenow="75"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div
+          class="progress-bar progress-bar-striped bg-dark"
+          style="width: 75%"
+        ></div>
+      </div>
+
+      <br /><br />
+
+      <!-- Animated Stripes -->
+      <p class="text-danger text-opacity-75 text-center fs-4">Striped</p>
+      <div
+        class="progress mb-4"
+        role="progressbar"
+        aria-valuenow="90"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      >
+        <div
+          class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+          style="width: 90%"
+        ></div>
+      </div>
+
+      <br /><br />
+
+      <!-- Don't go past here -->
+    </div>
+    <div style="margin-top: 350px"></div>
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
