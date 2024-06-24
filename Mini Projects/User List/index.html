@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price Card | Mini Project | By BootStrap Framework</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="pb-5">
+      <div class="container pt-4">
+        <div class="d-flex justify-content-end">
+          <div class="btn-group">
+            <button class="btn btn-secondary btn-sm" data-bs-theme-value="dark">
+              Dark
+            </button>
+            <button class="btn btn-light btn-sm" data-bs-theme-value="light">
+              Light
+            </button>
+          </div>
+        </div>
+        <h1>Users</h1>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <input
+              type="text"
+              name="find-users"
+              id="find-users"
+              placeholder="Search Users"
+              class="form-control form-control-lg"
+            />
+          </div>
+          <div
+            class="col-md-8 d-flex justify-content-end align-items-center user-menu"
+          >
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Reputation</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link text-bg-primary rounded-3 fw-semibold"
+                  >New Users</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Editors</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Moderators</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="container">
+        <!--  Row 1  -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3 shadow-sm border-3 border-primary card_round">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/24.jpg"
+                      alt="user Image"
+                      class="img-fluid rounded-circle"
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Mehdiali</h4>
+                    <h5>Student</h5>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Research</span>
+                    <span class="badge bg-primary">Coding</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3 shadow-sm border-3 border-primary card_round">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/72.jpg"
+                      alt="user Image"
+                      class="img-fluid rounded-circle"
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Jhon Doe</h4>
+                    <h5>Actor</h5>
+                    <span class="badge bg-primary">Acting</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Reading</span>
+                    <span class="badge bg-primary">Casting</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3 shadow-sm border-3 border-primary card_round">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/42.jpg"
+                      alt="user Image"
+                      class="img-fluid rounded-circle"
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Nehla Nicolas</h4>
+                    <h5>Anchor</h5>
+                    <span class="badge bg-primary">Anchoring</span>
+                    <span class="badge bg-primary">Acting</span>
+                    <span class="badge bg-primary">Director</span>
+                    <span class="badge bg-primary">Management</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  Row 2  -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3 shadow-sm border-3 border-primary card_round">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/28.jpg"
+                      alt="user Image"
+                      class="img-fluid rounded-circle"
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Thomas Sinew</h4>
+                    <h5>Photographer</h5>
+                    <span class="badge bg-primary">Nature</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Photography</span>
+                    <span class="badge bg-primary">Riding</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3 shadow-sm border-3 border-primary card_round">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/50.jpg"
+                      alt="user Image"
+                      class="img-fluid rounded-circle"
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>Annie Rice</h4>
+                    <h5>Student</h5>
+                    <span class="badge bg-primary">Reading</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Books</span>
+                    <span class="badge bg-primary">Searching</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3 shadow-sm border-3 border-primary card_round">
+              <div class="card-body">
+                <div class="d-flex gap-3">
+                  <div class="user-img">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/62.jpg"
+                      alt="user Image"
+                      class="img-fluid rounded-circle"
+                    />
+                  </div>
+                  <div class="user-info">
+                    <h4>James Hall</h4>
+                    <h5>Youtuber</h5>
+                    <span class="badge bg-primary">Creator</span>
+                    <span class="badge bg-primary">Managing</span>
+                    <span class="badge bg-primary">Travel</span>
+                    <span class="badge bg-primary">Nature</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-12 d-flex align-items-center justify-content-center">
+          <h1 class="display-3 fw-bolder text-muted">By Mehdiali Kadiwala</h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/darkmodetoggle.js"></script>
+  </body>
+</html>
