@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/myown favicon.png" />
+    <title>Ebook Website | Using Bootstrap | By Mehdiali Kadiwala</title>
+  </head>
+  <body>
+    <!-- ========== Start Navbar Section ========== -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="navbar1">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img
+            src="images/myown Logo.png"
+            alt=""
+            class="navbar-logo"
+            width="225"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link fw-semibold">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#details" class="nav-link fw-semibold">Details</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="contact.html"
+                class="nav-link btn btn-outline-light fw-semibold px-4 mx-4"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== End Navbar Section ========== -->
+
+    <!-- ========== Start Header Section ========== -->
+    <header class="header">
+      <!-- ========== Start Hero Section ========== -->
+      <div class="hero text-white pt-7">
+        <div class="container-xl">
+          <div class="row">
+            <div class="col-md-6" id="heroLeftSide">
+              <div class="image-container mb-5 mx-4">
+                <img
+                  src="images/header_photo.png"
+                  alt="Header Hero Image"
+                  class="img-fluid"
+                  id="heroImage"
+                />
+              </div>
+            </div>
+            <div class="col-md-6" id="heroRightSide">
+              <div
+                class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5"
+              >
+                <h1 class="display-4 fw-bold" id="heroHeading">
+                  Welcome to the Myown Blog Mastery
+                </h1>
+                <p class="lead" id="heroText">
+                  Are you ready to take your blogging journey to new heights?
+                  Blog Mastery is your ultimate guide to creating and managing a
+                  successful blog that captivates your audience and drives
+                  engagement.
+                </p>
+
+                <!-- Form -->
+                <div class="form-container text-center" id="heroForm">
+                  <form>
+                    <div class="my-4">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email Address"
+                        class="form-control form-control-lg rounded-5"
+                      />
+                    </div>
+                    <div class="d-grid">
+                      <button class="btn btn-primary text-white btn-lg">
+                        Free Download
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ========== End Hero Section ========== -->
+      <svg
+        class="frame-decoration"
+        data-name="Layer 2"
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="none"
+        viewBox="0 0 1920 192.275"
+      >
+        <defs>
+          <style>
+            .cls-1 {
+              fill: #f3f6f9;
+            }
+          </style>
+        </defs>
+        <title>frame-decoration</title>
+        <path
+          class="cls-1"
+          d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+          transform="translate(0 -158.755)"
+        />
+      </svg>
+    </header>
+    <!-- ========== End Header Section ========== -->
+
+    <!-- ========== Start Icon Section ========== -->
+    <section class="icons py-5 bg-light">
+      <div class="container-xl">
+        <div class="row gx-0 gx-md-5">
+          <div class="col-md-4" id="icon1">
+            <div
+              class="d-flex flex-column gap-4 shadow-sm px-4 py-4 rounded-5 border border-primary border-opacity-75 icon-card mb-5"
+            >
+              <div class="icon-container">
+                <i
+                  class="fas fa-user fa-3x text-light fs-2 bg-primary px-4 py-4 rounded-circle"
+                ></i>
+              </div>
+              <div class="text-container">
+                <h4 class="fw-bold mb-2">Unlock Your Blogging Potential</h4>
+                <p class="text-muted">
+                  Discover the key to unleashing your true blogging potential.
+                  Our ebook provides expert guidance on creating compelling
+                  content
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="icon2">
+            <div
+              class="d-flex flex-column gap-4 shadow-sm px-4 py-4 rounded-5 border border-primary border-opacity-75 icon-card mb-5"
+            >
+              <div class="icon-container">
+                <i
+                  class="fas fa-rocket fa-3x text-light fs-2 bg-primary px-4 py-4 rounded-circle"
+                ></i>
+              </div>
+              <div class="text-container">
+                <h4 class="fw-bold mb-2">Skyrocket Your Blog's Success</h4>
+                <p class="text-muted">
+                  Take your blog to new heights with our proven strategies for
+                  driving traffic and increasing your blog's visibility.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" id="icon3">
+            <div
+              class="d-flex flex-column gap-4 shadow-sm px-4 py-4 rounded-5 border border-primary border-opacity-75 icon-card mb-5"
+            >
+              <div class="icon-container mb-4 mt-3">
+                <div
+                  class="bg-primary px-4 py-4 rounded-circle d-inline position-relative"
+                >
+                  <span class="text-primary">
+                    <i class="fas fa-dollar-sign fa-3x text-primary fs-1"></i>
+                  </span>
+                  <i
+                    class="fas fa-dollar-sign fa-3x text-light fs-2 d-inline-block position-absolute top-50 start-50"
+                    style="transform: translate(-50%, -50%)"
+                  ></i>
+                </div>
+              </div>
+              <div class="text-container">
+                <h4 class="fw-bold mb-2">
+                  Monetize Your Blog With Easy Access
+                </h4>
+                <p class="text-muted">
+                  Turn your passion for blogging into a profitable venture. Our
+                  ebook reveals tried-and-tested monetization strategies
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Icon Section ========== -->
+
+    <!-- ========== Start Details Section ========== -->
+    <section id="details" class="details py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" id="detailsLeftSide">
+            <div
+              class="text-container d-flex flex-column justify-content-center h-100"
+            >
+              <h2 class="display-6">
+                <i class="fas fa-unlock text-primary"></i>
+                Unlock Your Blogging Potential
+              </h2>
+              <p>
+                Are you ready to unleash your true blogging potential? Our
+                ebook, "Blog Mastery," provides you with the tools and knowledge
+                to take your blog to the next level.s
+              </p>
+              <ul class="list-group list-group-flush lh-lg">
+                <li class="list-group-item">
+                  <i class="fas fa-box-open text-primary"></i>
+                  <strong>Unleash Your Creativity</strong>: Our ebook empowers
+                  you to unleash your creativity and express your unique voice
+                  through your blog.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-rocket text-primary"></i>
+                  <strong>Maximize Your Reach</strong>: Learn how to optimize
+                  your blog for search engines.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-computer text-primary"></i>
+                  <strong>Monetization Strategies</strong>: Discover various
+                  monetization strategies, such as sponsored content & affiliate
+                  marketing.
+                </li>
+              </ul>
+
+              <a
+                class="btn btn-primary text-white align-self-start mt-4"
+                data-bs-toggle="modal"
+                data-bs-target="#modal1"
+              >
+                Free Download
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6" id="detailsRightSide">
+            <div class="image-container p-5">
+              <img
+                src="images/description.png"
+                alt="Description Detials Section Image"
+                class="img-fluid rounded-5 shadow-sm"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Details Section ========== -->
+
+    <!-- ========== Start Modal-1 Module ========== -->
+    <div class="modal fade" id="modal1">
+      <div class="modal-dialog modal-lg mt-6">
+        <div class="modal-content p-5 rounded-5 shadow-lg">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="image-container">
+                <img
+                  src="images/description.png"
+                  alt="Description image on modal."
+                  class="img-fluid rounded-5 shadow-sm"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-container">
+                <h2 class="display-6">
+                  <i class="fas fa-unlock text-primary"></i>
+                  Unlock Your Blogging Potential
+                </h2>
+                <p>
+                  Are you ready to unleash your true blogging potential? Our
+                  ebook, "Blog Mastery," provides you with the tools and
+                  knowledge to take your blog to the next level.s
+                </p>
+                <ul class="list-group list-group-flush lh-lg">
+                  <li class="list-group-item">
+                    <i class="fas fa-box-open text-primary"></i>
+                    <strong>Unleash Your Creativity</strong>: Our ebook empowers
+                    you to unleash your creativity and express your unique voice
+                    through your blog.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-rocket text-primary"></i>
+                    <strong>Maximize Your Reach</strong>: Learn how to optimize
+                    your blog for search engines.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-computer text-primary"></i>
+                    <strong>Monetization Strategies</strong>: Discover various
+                    monetization strategies, such as sponsored content &
+                    affiliate marketing.
+                  </li>
+                </ul>
+
+                <a href="" class="btn btn-primary text-white">Free Download</a>
+                <button class="ms-3 btn btn-light" data-bs-dismiss="modal">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Modal-1 Module ========== -->
+
+    <!-- ========== Start Statement Section ========== -->
+    <section class="statement mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12" id="masterArt">
+            <div
+              class="text-container bg-light p-5 rounded-5 position-relative border border-3 border-primary shadow-sm"
+            >
+              <h2 class="display-6">
+                <i class="fas fa-pencil"></i>
+                Master the Art of Blogging Excellence
+              </h2>
+              <p>
+                Transform your blog from a mere hobby to a thriving online
+                business with our ebook, "Blog Mastery: Monetize Your Passion."
+                This invaluable resource is your roadmap to turning your blog
+                into a profitable venture. Learn how to monetize your content
+                through various strategies such as sponsored posts, affiliate
+                marketing, and product creation. Gain insights into building a
+                strong brand, attracting lucrative partnerships, and maximizing
+                your earning potential. Take the leap and unlock the financial
+                rewards of your blogging journey.
+              </p>
+              <div
+                class="must-btn position-absolute bottom-0 start-50 bg-primary px-4 py-2 fs-5 rounded-4 text-white border border-5 border-light text-center lh-1"
+              >
+                Mehdiali Kadiwala
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Statement Section ========== -->
+
+    <!-- ========== Start Blog Section ========== -->
+    <section class="blog my-6 mt-7">
+      <div class="container">
+        <div class="row gy-5 gy-md-0">
+          <div class="col-12 mb-5" id="blogHeading">
+            <h2 class="fw-bold fs-2">Explore Our Blog</h2>
+            <p class="fs-5">
+              Explore our blog for insightful articles, tips, and updates on the
+              world of education, skill development, and personal growth.
+            </p>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center d-md-block"
+            id="blogCard1"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <img
+                src="images/Blog-img-1.webp"
+                alt="My Photo"
+                class="card-img-top rounded rounded-0 rounded-top-4"
+                style="width: 20rem"
+              />
+              <div class="card-body">
+                <p class="text-muted">14 / Nov / 2023</p>
+                <h5 class="card-title">Code your first react app with us</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                  magnam voluptates molestia
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center d-md-block"
+            id="blogCard2"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <img
+                src="images/Blog-img-2.webp"
+                alt="My Photo"
+                class="card-img-top rounded rounded-0 rounded-top-4"
+                style="width: 20rem"
+              />
+              <div class="card-body">
+                <p class="text-muted">14 / Nov / 2023</p>
+                <h5 class="card-title">Code your first react app with us</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                  magnam voluptates molestia
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-4 d-flex align-items-center justify-content-center d-md-block"
+            id="blogCard3"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <img
+                src="images/Blog-img-3.webp"
+                alt="My Photo"
+                class="card-img-top rounded rounded-0 rounded-top-4"
+                style="width: 20rem"
+              />
+              <div class="card-body">
+                <p class="text-muted">14 / Nov / 2023</p>
+                <h5 class="card-title">Code your first react app with us</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                  magnam voluptates molestia
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Blog Section ========== -->
+
+    <!-- ========== Start Details-2 Section ========== -->
+    <section class="details my-6">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 d-flex justify-content-center d-md-block"
+            id="detailsLeftSide2"
+          >
+            <div class="image-container p-5">
+              <img
+                src="images/author.png"
+                alt="Author Image in Detail section"
+                class="img-fluid rounded-5 shadow-sm"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6" id="detailsRightSide2">
+            <div
+              class="text-container d-flex flex-column justify-content-center h-100"
+            >
+              <h2 class="display-6">
+                <i class="fas fa-paint-brush text-primary"></i>
+                Craft Remarkable Content
+              </h2>
+              <p>
+                Discover techniques for effective storytelling, engaging
+                visuals, and compelling calls-to-action. Unlock the secrets of
+                creating a consistent and authentic brand voice that sets you
+                apart from the competition.
+              </p>
+              <ul class="list-group list-group-flush lh-lg">
+                <li class="list-group-item">
+                  <i class="fas fa-microphone text-primary"></i>
+                  <strong>Embrace Your Unique Voice</strong>: Learn how to
+                  harness the power of your unique voice.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-lightbulb text-primary"></i>
+                  <strong>Spark Creativity</strong>: Explore techniques to spark
+                  creativity and overcome writer's block.
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-magic-wand-sparkles text-primary"></i>
+                  <strong>Engage Your Readers</strong>: Discover strategies for
+                  creating content that engages your readers on a deeper level.
+                </li>
+              </ul>
+
+              <a
+                class="btn btn-primary text-white align-self-start mt-4"
+                data-bs-toggle="modal"
+                data-bs-target="#modal2"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Details-2 Section ========== -->
+
+    <!-- ========== Start Modal-1 Module ========== -->
+    <div class="modal fade" id="modal2">
+      <div class="modal-dialog modal-lg mt-6">
+        <div class="modal-content p-5 rounded-5 shadow-lg">
+          <div class="row gy-5 gy-md-0">
+            <div class="col-lg-6">
+              <div class="image-container">
+                <img
+                  src="images/author.png"
+                  alt="Author image on modal."
+                  class="img-fluid rounded-5"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text-container">
+                <h2 class="display-6">
+                  <i class="fas fa-paint-brush text-primary"></i>
+                  Craft Remarkable Content
+                </h2>
+                <p>
+                  Discover techniques for effective storytelling, engaging
+                  visuals, and compelling calls-to-action. Unlock the secrets of
+                  creating a consistent and authentic brand voice that sets you
+                  apart from the competition.
+                </p>
+                <ul class="list-group list-group-flush lh-lg">
+                  <li class="list-group-item">
+                    <i class="fas fa-microphone text-primary"></i>
+                    <strong>Embrace Your Unique Voice</strong>: Learn how to
+                    harness the power of your unique voice.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-lightbulb text-primary"></i>
+                    <strong>Spark Creativity</strong>: Explore techniques to
+                    spark creativity and overcome writer's block.
+                  </li>
+                  <li class="list-group-item">
+                    <i class="fas fa-magic-wand-sparkles text-primary"></i>
+                    <strong>Engage Your Readers</strong>: Discover strategies
+                    for creating content that engages your readers on a deeper
+                    level.
+                  </li>
+                </ul>
+
+                <div class="mt-2">
+                  <a href="" class="btn btn-primary text-white">Learn More</a>
+                  <button class="ms-3 btn btn-light" data-bs-dismiss="modal">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Modal-2 Module ========== -->
+
+    <!-- ========== Start Services Section ========== -->
+    <section class="services my-6">
+      <div class="container">
+        <div class="row gx-3 gx-sm-0 gy-5">
+          <div class="col-12 mb-5" id="popularHeading">
+            <h2 class="fw-bold fs-2">Popular Blogs</h2>
+            <p class="fs-5">
+              Let's explore the popular blogs by ever developer and programmer
+              provided by us.
+            </p>
+          </div>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center d-md-block"
+            id="popularBlogCard1"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <div class="logo-container">
+                <i class="fab fa-js fs-1 p-3 m-3 mb-0 text-primary"></i>
+              </div>
+              <div class="card-body text-dark">
+                <h5 class="card-title fw-bold">JS Development</h5>
+                <p class="card-text">
+                  Creating dynamic, interactive web applications for user
+                  engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center d-md-block"
+            id="popularBlogCard2"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <div class="logo-container">
+                <i class="fab fa-python fs-1 p-3 m-3 mb-0 text-primary"></i>
+              </div>
+              <div class="card-body text-dark">
+                <h5 class="card-title fw-bold">Python</h5>
+                <p class="card-text">
+                  Versatile language for problem-solving and application
+                  development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center d-md-block"
+            id="popularBlogCard3"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <div class="logo-container">
+                <i class="fab fa-java fs-1 p-3 m-3 mb-0 text-primary"></i>
+              </div>
+              <div class="card-body text-dark">
+                <h5 class="card-title fw-bold">Java Development</h5>
+                <p class="card-text">
+                  Creating dynamic, interactive web applications for user
+                  engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center d-md-block"
+            id="popularBlogCard4"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <div class="logo-container">
+                <i class="fab fa-html5 fs-1 p-3 m-3 mb-0 text-primary"></i>
+              </div>
+              <div class="card-body text-dark">
+                <h5 class="card-title fw-bold">HTML Development</h5>
+                <p class="card-text">
+                  Creating dynamic, interactive web applications for user
+                  engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center d-md-block"
+            id="popularBlogCard5"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <div class="logo-container">
+                <i class="fab fa-css3 fs-1 p-3 m-3 mb-0 text-primary"></i>
+              </div>
+              <div class="card-body text-dark">
+                <h5 class="card-title fw-bold">CSS Development</h5>
+                <p class="card-text">
+                  Versatile language for problem-solving and application
+                  development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 d-flex align-items-center justify-content-center d-md-block"
+            id="popularBlogCard6"
+          >
+            <div class="card shadow-sm rounded rounded-4" style="width: 20rem">
+              <div class="logo-container">
+                <i class="fab fa-bootstrap fs-1 p-3 m-3 mb-0 text-primary"></i>
+              </div>
+              <div class="card-body text-dark">
+                <h5 class="card-title fw-bold">Bootstrap Development</h5>
+                <p class="card-text">
+                  Creating dynamic, interactive web applications for user
+                  engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Services Section ========== -->
+
+    <!-- ========== Start Testimonial Section ========== -->
+    <section class="testimonial mb-8">
+      <div class="container">
+        <div class="row gy-4 gy-md-0">
+          <div class="col-12 mb-5" id="testimonialHeading">
+            <h2 class="fw-bold fs-2">Testimonials</h2>
+            <p class="fs-5">
+              See What our students and customers says about us.
+            </p>
+          </div>
+          <div class="col-md-4 text-center" id="testimonialCard1">
+            <img
+              src="https://randomuser.me/api/portraits/men/34.jpg"
+              alt="User Testimonial Image"
+              class="rounded-circle mb-3"
+            />
+            <p class="lead fst-italic">
+              "This ebook completely transformed my blogging journey. The
+              practical strategies and valuable insights helped me take my blog
+              to new heights. I highly recommend it!"
+            </p>
+            <p class="fw-bold">Jamilhusen Ambaliyasana - Surat, Gujarat</p>
+          </div>
+          <div class="col-md-4 text-center" id="testimonialCard2">
+            <img
+              src="https://randomuser.me/api/portraits/women/34.jpg"
+              alt="User Testimonial Image"
+              class="rounded-circle mb-3"
+            />
+            <p class="lead fst-italic">
+              "I'm so grateful for this ebook! It provided me with the guidance
+              and inspiration I needed to create engaging content and build a
+              loyal readership. It's a game-changer!"
+            </p>
+            <p class="fw-bold">Fizzafatema Kadiwala - Rajkot, Gujarat</p>
+          </div>
+          <div class="col-md-4 text-center" id="testimonialCard3">
+            <img
+              src="https://randomuser.me/api/portraits/men/36.jpg"
+              alt="User Testimonial Image"
+              class="rounded-circle mb-3"
+            />
+            <p class="lead fst-italic">
+              "I can't recommend this ebook enough. It's a treasure of blogging
+              wisdom. It helped me unlock my creativity, connect with my
+              audience, and achieve remarkable results."
+            </p>
+            <p class="fw-bold">Kasimali Kadiwala - Vadodara, Gujarat</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Testimonial Section ========== -->
+
+    <!-- ========== Start Download Section ========== -->
+    <section class="download">
+      <div class="container pt-4">
+        <div class="row">
+          <div class="col-lg-5" id="downloadImage">
+            <div class="image-container mt-n6 mb-5">
+              <!-- <img
+                src="images/download-ebook.png"
+                alt="Download Ebook Ad Image."
+                class="img-fluid"
+              /> -->
+              <img
+                src="images/header_photo.png"
+                alt="Download Ebook Ad Image."
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div
+            class="col-lg-7 text-white d-flex flex-column justify-content-center mt-auto h-100 mb-8"
+            id="feedBack"
+          >
+            <h2 class="fw-bold">Get Your Free Ebooks Now</h2>
+            <p>
+              Unlock the power of knowledge and take your blogging journey to
+              the next level. Our ebook, "Blog Mastery: The Ultimate Guide to
+              Blogging Success," is your key to success.
+            </p>
+
+            <form>
+              <div class="input-group mb-3">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email Address"
+                  class="form-control"
+                />
+                <button class="btn btn-primary text-white rounded-end">
+                  Download
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Download Section ========== -->
+
+    <!-- ========== Start Social Section ========== -->
+    <section class="social text-bg-primary py-6 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 offset-md-3 text-center fs-4">
+            <p id="socialText">
+              Stay connected and join our vibrant community. For any inquiries
+              or assistance, feel free to reach out to us
+            </p>
+            <div class="social-icons d-flex justify-content-center gap-4">
+              <i class="fab fa-facebook fa-2x" id="socialIcons"></i>
+              <i class="fab fa-instagram fa-2x" id="socialIcons"></i>
+              <i class="fab fa-twitter fa-2x" id="socialIcons"></i>
+              <i class="fab fa-linkedin fa-2x" id="socialIcons"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Social Section ========== -->
+
+    <!-- ========== Start Footer Section ========== -->
+    <footer class="border-top border-dark bg-primary text-white py-4">
+      <div class="container">
+        <div class="row gy-4 gy-md-0">
+          <div class="col-md-8">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link link-light">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#details" class="nav-link link-light">Details</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link link-light">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <p class="text-end text-center text-md-start">
+              Copyright &copy; Blog Mastery 2024
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ========== End Footer Section ========== -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
