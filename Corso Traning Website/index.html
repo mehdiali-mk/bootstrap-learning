@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fontsawesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/Myown Favicon.png" />
+    <title>Croso Tranning Website | By using BootStrap</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand" id="navLogo">
+          <img
+            src="images/Myown Traning Seminars.png"
+            alt="Logo of the website."
+            width="180"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          <!-- <i class="fas fa-navicon"></i> -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#discover">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#summary">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#takeaways">Takeaways</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin-in fa-stack-1x text-dark"></i>
+              </a>
+            </span>
+          </span>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-dark"></i>
+              </a>
+            </span>
+          </span>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x text-dark"></i>
+              </a>
+            </span>
+          </span>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-instagram fa-stack-1x text-dark"></i>
+              </a>
+            </span>
+          </span>
+          <span class="nav-item">
+            <span class="fa-stack">
+              <a href="#">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-threads fa-stack-1x text-dark"></i>
+              </a>
+            </span>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========== Start Header Section ========== -->
+    <header class="header py-8 vh-100 mb-8">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div class="col-12 text-container">
+            <h1 class="display-2 text-white">
+              <div class="heading-text">Explore Our Training</div>
+              <div class="heading-text">and Seminar Videos</div>
+            </h1>
+            <p class="lead text-white w-75 m-auto mb-3">
+              <div class="paragraph-text text-white">Whether you're a beginner or an experienced professional, our
+                carefully curated content will</div>
+                <div class="paragraph-text text-white">
+                  empower you to enhance your skills
+              and expand your knowledge
+                </div>
+            </p>
+            <a href="#register" class="btn btn-primary text-uppercase"
+            id="registerHeader">
+              Register</a
+            >
+            <a href="#discover" class="btn btn-outline-light text-uppercase"
+            id="discoverHeader"
+              >Discover</a
+            >
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <!-- Image Slider -->
+            <div class="carousel slide" id="slider" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  class="active"
+                  type="button"
+                  data-bs-slide-to="0"
+                  data-bs-target="#slider"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-slide-to="1"
+                  data-bs-target="#slider"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-slide-to="2"
+                  data-bs-target="#slider"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner rounded-5 shadow-lg">
+                <div class="carousel-item active">
+                  <img
+                    src="images/header-slide-1.jpg"
+                    alt="Header Slider 1"
+                    class="d-block w-100 rounded-5"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/header-slide-2.jpg"
+                    alt="Header Slider 1"
+                    class="d-block w-100 rounded-5"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/header-slide-3.jpg"
+                    alt="Header Slider 1"
+                    class="d-block w-100 rounded-5"
+                  />
+                </div>
+              </div>
+              <!-- Buttons -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-slide="prev"
+                data-bs-target="#slider"
+              >
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-slide="next"
+                data-bs-target="#slider"
+              >
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ========== End Header Section ========== -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/gsap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

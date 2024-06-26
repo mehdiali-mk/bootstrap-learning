@@ -1,0 +1,19 @@
+.header {
+  min-height: 1000px;
+  background: linear-gradient(to bottom right, rgba(42, 36, 56, 0.9), rgba(42, 36, 56, 0.9)), url("../images/header-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.header .slide {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: var(--bs-dark);
+  }
+  #navbarNavDropdown {
+    margin-top: 2.4rem;
+  }
+}
