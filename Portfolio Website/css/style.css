@@ -51,6 +51,27 @@
   text-align: justify;
 }
 
+.my-btn-hover:hover {
+  color: var(--bs-dark);
+}
+
+.project {
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+.project:hover {
+  transform: translateY(-8px) scale(1.01);
+  -webkit-transform: translateY(-8px) scale(1.01);
+  -moz-transform: translateY(-8px) scale(1.01);
+  -ms-transform: translateY(-8px) scale(1.01);
+  -o-transform: translateY(-8px) scale(1.01);
+}
+
 @media (max-width: 767px) {
   .header .social i {
     font-size: 30px;

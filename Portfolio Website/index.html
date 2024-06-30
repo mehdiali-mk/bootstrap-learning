@@ -22,20 +22,21 @@
       >
         <h5
           class="text-primary px-3 py-2 bg-light shadow-lg rounded-2 fs-3 fw-bold text-uppercase"
+          id="helloWorld"
         >
           Hello, World !
         </h5>
         <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
 
-        <p class="roles text-white text-uppercase fs-4">
+        <p class="roles text-white text-uppercase fs-4" id="subTitle">
           <span>Front-End Web Developer | </span>
-          <span>Active Lerner</span>
+          <span>Active Learner</span>
         </p>
 
-        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3" id="moreBtn">
           <div class="d-flex">
             <div class="me-3">
-              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-chevron-down" id="downIcon"></i>
             </div>
             <div class="text-start">
               <span>More About Me</span>
@@ -44,19 +45,19 @@
         </a>
 
         <div class="social d-flex gap-4 position-absolute">
-          <a href="https://github.com/mehdiali-mk/">
+          <a href="https://github.com/mehdiali-mk/" id="socialIcons">
             <i class="fab fa-github fa-2x text-light"></i>
           </a>
-          <a href="https://www.linkedin.com/in/mehdiali-mk/">
+          <a href="https://www.linkedin.com/in/mehdiali-mk/" id="socialIcons">
             <i class="fab fa-linkedin fa-2x text-light"></i>
           </a>
-          <a href="https://twitter.com/mehdiali_mk ">
+          <a href="https://twitter.com/mehdiali_mk " id="socialIcons">
             <i class="fab fa-x-twitter fa-2x text-light"></i>
           </a>
-          <a href="https://www.instagram.com/mehdiali_mk/">
+          <a href="https://www.instagram.com/mehdiali_mk/" id="socialIcons">
             <i class="fab fa-instagram fa-2x text-light"></i>
           </a>
-          <a href="https://www.facebook.com/mehdiali.mk/ ">
+          <a href="https://www.facebook.com/mehdiali.mk/ " id="socialIcons">
             <i class="fab fa-facebook fa-2x text-light"></i>
           </a>
           <!-- <a href="#">
@@ -101,8 +102,386 @@
     </section>
     <!-- ========== End About Section ========== -->
 
+    <!-- ========== Start Profile Section ========== -->
+    <section class="profile my-5 py-6 bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold text-white">Profile</h3>
+            <p>
+              Here is some more info about myself to help you get to know me
+              better.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item mb-2 bg-dark text-light">
+                <h5 class="">
+                  <i class="fas fa-user-alt me-2 text-white"></i> Full Name:
+                </h5>
+                <p class="fs-6">Mehdiali Najarhusain Kadiwala</p>
+              </li>
+              <li class="list-group-item mb-2 bg-dark text-light">
+                <h5 class="">
+                  <i class="fas fa-calendar-alt me-2 text-white"></i> Birth
+                  Date:
+                </h5>
+                <p class="fs-6">August 30, 2007</p>
+              </li>
+              <li class="list-group-item mb-2 bg-dark text-light">
+                <h5 class="">
+                  <i class="fas fa-building me-2 text-white"></i> Current
+                  Position:
+                </h5>
+                <p class="fs-6">Student [Pursuing Computer Engineering]</p>
+              </li>
+              <li class="list-group-item mb-2 bg-dark text-light">
+                <h5 class="">
+                  <i class="fas fa-home-alt me-2 text-white"></i> Location:
+                </h5>
+                <p class="fs-6">Ahmedabad, Gujarat</p>
+              </li>
+              <li class="list-group-item mb-2 bg-dark text-light">
+                <h5 class="">
+                  <i class="fas fa-envelope me-2 text-white"></i> Email:
+                </h5>
+                <p class="fs-6">mehdialikadiwala@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-white text-uppercase fw-bold">Skills</h3>
+            <p>
+              Here is a list of my skills with these dumb percentages that don't
+              mean anything 😉
+            </p>
+            <h5 class="text-white">
+              <i class="fa-solid fa-puzzle-piece me-2"></i> Problem Solving
+            </h5>
+            <div
+              class="progress mb-4 bg-primary rounded-5"
+              role="progressbar"
+              aria-valuenow="95"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar bg-white text-dark rounded-5 fw-bold"
+                style="width: 95%"
+              >
+                95%
+              </div>
+            </div>
+            <h5 class="text-white">
+              <i class="fa-brands fa-html5 me-2"></i> HTML 5
+            </h5>
+            <div
+              class="progress mb-4 bg-primary rounded-5"
+              role="progressbar"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar bg-white text-dark rounded-5 fw-bold"
+                style="width: 100%"
+              >
+                100%
+              </div>
+            </div>
+            <h5 class="text-white">
+              <i class="fa-brands fa-css3 me-2"></i> CSS
+            </h5>
+            <div
+              class="progress mb-4 bg-primary rounded-5"
+              role="progressbar"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar bg-white text-dark rounded-5 fw-bold"
+                style="width: 80%"
+              >
+                80%
+              </div>
+            </div>
+            <h5 class="text-white">
+              <i class="fa-brands fa-js me-2"></i> JavaScript
+            </h5>
+            <div
+              class="progress mb-4 bg-primary rounded-5"
+              role="progressbar"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar bg-white text-dark rounded-5 fw-bold"
+                style="width: 70%"
+              >
+                70%
+              </div>
+            </div>
+            <h5 class="text-white">
+              <i class="fa-brands fa-bootstrap me-2"></i> BootStrap
+            </h5>
+            <div
+              class="progress mb-4 bg-primary rounded-5"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar bg-white text-dark rounded-5 fw-bold"
+                style="width: 75%"
+              >
+                75%
+              </div>
+            </div>
+            <h5 class="text-white">
+              <i class="fa-brands fa-python me-2"></i> Python
+            </h5>
+            <div
+              class="progress mb-4 bg-primary rounded-5"
+              role="progressbar"
+              aria-valuenow="65"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              <div
+                class="progress-bar bg-white text-dark rounded-5 fw-bold"
+                style="width: 65%"
+              >
+                65%
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 text-center">
+          <div class="col-12">
+            <a
+              href="#"
+              class="btn btn-outline-light btn-lg text-uppercase px-5 mx-3 fw-bold my-btn-hover my-2"
+              >Hire Me Now!</a
+            >
+
+            <a
+              href="#"
+              class="btn btn-light btn-lg text-uppercase text-dark px-5 mx-3 fw-bold my-2"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Profile Section ========== -->
+
+    <!-- ========== Start Portfolio Section ========== -->
+    <section class="portfolio py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h4
+            class="text-uppercase fw-bold text-light px-3 py-2 bg-dark rounded-2 d-inline shadow-lg"
+          >
+            Portfolio
+          </h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-2">Check Out My Work</h2>
+          <p class="lead">Here is a small sample of my projects.</p>
+        </div>
+        <!-- <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project1.jpg"
+                data-lightbox="Images"
+                data-title="Cliboard Landing Page"
+              >
+                <img
+                  src="images/project1.jpg"
+                  alt=""
+                  class="img-fluid rounded-4"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project2.jpg"
+                data-lightbox="images"
+                data-title="Loop Studios Website"
+              >
+                <img
+                  src="images/project2.jpg"
+                  alt=""
+                  class="img-fluid rounded-4"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project3.jpg"
+                data-lightbox="images"
+                data-title="Shortly Website"
+              >
+                <img
+                  src="images/project3.jpg"
+                  alt=""
+                  class="img-fluid rounded-4"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project4.jpg"
+                data-lightbox="images"
+                data-title="Flyo Website"
+              >
+                <img
+                  src="images/project4.jpg"
+                  alt=""
+                  class="img-fluid rounded-4"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project5.jpg"
+                data-lightbox="images"
+                data-title="Bookmark Website"
+              >
+                <img
+                  src="images/project5.jpg"
+                  alt=""
+                  class="img-fluid rounded-4"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/project6.jpg"
+                data-lightbox="Portfolio Website\Images\project6.jpg"
+                data-title="Grid Layout"
+              >
+                <img
+                  src="images/project6.jpg"
+                  alt=""
+                  class="img-fluid rounded-4"
+                />
+              </a>
+            </div>
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="#">
+                <img
+                  src="Images/project1.jpg"
+                  alt="Project Image"
+                  class="img-fluid rounded-5"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="#">
+                <img
+                  src="Images/project2.jpg"
+                  alt="Project Image"
+                  class="img-fluid rounded-5"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="#">
+                <img
+                  src="Images/project3.jpg"
+                  alt="Project Image"
+                  class="img-fluid rounded-5"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="#">
+                <img
+                  src="Images/project4.jpg"
+                  alt="Project Image"
+                  class="img-fluid rounded-5"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="#">
+                <img
+                  src="Images/project5.jpg"
+                  alt="Project Image"
+                  class="img-fluid rounded-5"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="#">
+                <img
+                  src="Images/project6.jpg"
+                  alt="Project Image"
+                  class="img-fluid rounded-5"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-4 offset-md-4">
+            <div class="project shadow-lg rounded-5">
+              <a href="#">
+                <img
+                  src="Images/project7.jpg"
+                  alt="Project Image"
+                  class="img-fluid rounded-5"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End Portfolio Section ========== -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/gsap.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/LIGHTB~1.JS"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
