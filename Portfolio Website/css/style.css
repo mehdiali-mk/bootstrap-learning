@@ -72,6 +72,31 @@
   -o-transform: translateY(-8px) scale(1.01);
 }
 
+.services {
+  background: url(../Images/bg.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -10;
+}
+.services::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(53, 47, 68, 0.9);
+  z-index: -10;
+}
+
+.services .container {
+  z-index: 10;
+}
+
+.my-contact::placeholder {
+  color: var(--bs-light);
+}
+
 @media (max-width: 767px) {
   .header .social i {
     font-size: 30px;
@@ -81,5 +106,11 @@
   }
   .about-container {
     flex-direction: column;
+  }
+  .stats .stat {
+    border-right: 0 !important;
+    margin-bottom: 40px;
+    border-bottom: var(--bs-dark) solid 1px;
+    padding-bottom: 20px;
   }
 }
